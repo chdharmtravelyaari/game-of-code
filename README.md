@@ -10,10 +10,10 @@ Example: test_client.py(path: goc/clients/test_client.py)
 
 `
 
+
 import random
 def shoot(current_position,all_targets,bullets):
 	"""
-
 	current_position: tuple=(x,y)
 	targets={
 		{"object_id":<object_id>,
