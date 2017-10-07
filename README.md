@@ -8,8 +8,7 @@
 
 Example: test_client.py(path: goc/clients/test_client.py)
 
-`
-
+```python
 
 import random
 def shoot(current_position,all_targets,bullets):
@@ -43,7 +42,7 @@ def shoot(current_position,all_targets,bullets):
 		#TODO: Check shooter accuracy and		
 		# Return True if bullet would hit target 
 	return random.randint(0,5)==0
-`
+```
 * To run project, python goc/run.py
 
 * Objective: Program shooter when to shoot so that it would hit a moving target.
