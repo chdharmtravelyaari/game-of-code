@@ -51,7 +51,9 @@ def shoot(current_position,all_targets,bullets):
 * Blue: Bullet
 * Red: Targets
 * Brown: Shooter
-Total Bullets:50
-Total Iteration/Steps:300
+
+# Initial Items#
+* Total Bullets:50
+* Total Iteration/Steps:300
 
 
