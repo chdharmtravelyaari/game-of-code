@@ -27,7 +27,8 @@ template = """
 		}
 		#grid div.cell.s{
 			border-color: black;
-		}		
+			background-color: brown;
+		}			
 	</style>
 	
 </head>

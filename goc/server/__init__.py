@@ -282,7 +282,7 @@ def run_step(current_step,all_shooters):
 		signal=False
 		if bullets:
 			signal = client.shoot(current_position,all_targets,bullets)
-		print "bullets=",bullets,"; shoot=",signal
+		print "step=",current_step,"bullets=",bullets,"; shoot=",signal
 		if signal and bullets:
 			create_bullet(object_id,current_step,current_position)
 			client_details["bullets"]-=1

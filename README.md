@@ -7,7 +7,9 @@
 * Create shoot function in <your_name>.py file
 
 Example: test_client.py(path: goc/clients/test_client.py)
+
 `
+
 import random
 def shoot(current_position,all_targets,bullets):
 	"""
@@ -45,3 +47,12 @@ def shoot(current_position,all_targets,bullets):
 * To run project, python goc/run.py
 
 * Objective: Program shooter when to shoot so that it would hit a moving target.
+
+# Output Items #
+* Blue: Bullet
+* Red: Targets
+* Brown: Shooter
+Total Bullets:50
+Total Iteration/Steps:300
+
+
