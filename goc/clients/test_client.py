@@ -1,13 +1,3 @@
-## Game of Code ##
-
-* Clone the project
-* Goto projet folder
-* run python setup.py develop
-* Create Your client file as goc/clients/<your_name>.py
-* Create shoot function in <your_name>.py file
-
-Example: test_client.py(path: goc/clients/test_client.py)
-`
 import random
 def shoot(current_position,all_targets,bullets):
 	"""
@@ -41,7 +31,3 @@ def shoot(current_position,all_targets,bullets):
 		#TODO: Check shooter accuracy and		
 		# Return True if bullet would hit target 
 	return random.randint(0,5)==0
-`
-* To run project, python goc/run.py
-
-* Objective: Program shooter when to shoot so that it would hit a moving target.
